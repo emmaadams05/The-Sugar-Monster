@@ -1,0 +1,171 @@
+@import 'style.css';
+
+.first-home {
+  background-image: url(switch_img/img3.jpg);
+}
+
+.reveal-margin {
+  margin-bottom: 7vh;
+}
+
+.jumbotron h1 {
+  color: #fff;
+}
+
+.cookie_img_contact {
+  width: 40%;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+}
+
+.socials {
+  width: 80vw;
+  margin: auto;
+  margin-top: 15vh;
+}
+
+
+.countdown-container {
+  margin-top: 10vh;
+  width: 100%;
+  font-family: 'Bebas Neue';
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  color: #fff;
+  padding-top: 10vh;
+  padding-bottom: 16vh;
+  background-color: #94C5E0;
+}
+
+@media screen and (min-width: 1400px) {
+  .countdown-container {
+    padding-bottom: 12vh;
+  }
+}
+
+.countdown-container h2 {
+  font-size: 5vw;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+}
+
+.countdown-container h3 {
+  font-size: 3vw;
+  letter-spacing: 2px;
+  transform: translateY(-15px);
+}
+
+.countdown-container div {
+  font-size: 6vw;
+  margin-top: 2vh;
+  letter-spacing: 5px;
+  padding-bottom: 5vh;
+}
+
+small {
+  font-size: 2vw;
+}
+
+.insta {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+
+iframe  {
+  width: 20%;
+  margin: 3% !important;
+}
+
+@media only screen and (max-width: 700px) {
+
+  .insta {
+    flex-direction: column;
+    }
+
+  .iframe {
+    margin: 0 !important;
+  }
+  
+  .countdown-container h2 {
+    font-size: 14vw;
+  }
+
+
+  .countdown-container h3 {
+    font-size: 9vw;
+    transform: translateY(-5px);
+  }
+
+  .countdown-container div {
+    font-size: 12vw;
+    margin-top: 2vh;
+    letter-spacing: 5px;
+  }
+  
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 700px) {
+
+  .countdown-container h2 {
+    font-size: 10vw;
+    letter-spacing: 1px;
+  }
+
+  .countdown-container h3 {
+    font-size: 6vw;
+    transform: translateY(-5px);
+  }
+
+  .countdown-container div {
+    font-size: 8vw;
+    margin-top: 2vh;
+    letter-spacing: 5px;
+  }
+  
+}
+
+@media only screen and (max-width: 700px) {
+
+  .socials {
+    flex-direction: column;      
+  }
+
+  .cookie_img_contact {
+    width: 85%;
+    margin: auto;
+    margin-top: 5vh;
+  }
+
+  .countdown-container {
+    padding-bottom: 10vh;
+  }
+  
+}
+
+
+
+.title3 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 10vh;
+}
+
+.footer3 {
+  height: 25vh;
+}
+
+@media only screen and (max-width: 700px) {
+
+.si2 {
+  transform: translateY(-7vh);
+}
+  
+}

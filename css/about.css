@@ -1,0 +1,94 @@
+@import "style.css";
+
+.first-home {
+  background-image: url(switch_img/img5.jpg);
+}
+
+.jumbotron h1{
+  color: #fff;
+}
+
+.about {
+  width: 80vw;
+  margin: auto;
+  margin-top: 15vh;
+}
+
+.first-home {
+  height: 300%;
+}
+
+.imagecircle {
+  width: 25vw;
+  height: 25vw;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.cirlcecontainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 7vh;
+}
+
+.imagecircle:hover {
+  width: 25.5vw;
+  height: 25.5vw;
+  transition: 0.4s;
+}
+
+.extra {
+  width: 80%;
+  margin: auto;
+  margin-top: 28vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.extratext {
+  width: 45%;
+}
+
+.aboutimg {
+  width: 45%;
+  position: relative;
+  top: -6vh;
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .cirlcecontainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imagecircle {
+    width: 50vw;
+    height: 50vw;
+  }
+
+  .nivrith {
+    margin-top: 3vh;
+  }
+
+  .extra {
+    flex-direction: column-reverse;
+    width: 90%;
+    margin-top: 15vh;
+    align-items: center;
+  }
+
+  .aboutimg {
+    width: 80%;
+    
+  }
+
+  .extratext {
+    width: 80%;
+    margin: auto;
+  }
+
+
+}
